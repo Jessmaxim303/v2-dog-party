@@ -7,7 +7,10 @@ Body text: #000000
 Font: Open Sans*/
 
 * {
-	/*border: 1px dotted red;*/
+	border: 1px solid red;
+}
+
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -15,19 +18,20 @@ Font: Open Sans*/
 }
 
 header {
-	height: 85px;
+	height: 75px;
 	width: 100%;
 	background-color: #75e2e6;
 	border-bottom: 3px solid #048eaa;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 	color: #000000;
 }
 
 #nav__dog__container {
-	height: 60px;
-	width: 60px;
+	height: 50px;
+	width: 50px;
 	border-radius: 50%;
-	display: inline;
-	margin: 8px;
+	margin: 10px 0 0 10px;
 	float: left;
 	display: inline;
 }
@@ -37,25 +41,23 @@ header {
 }*/
 
 #nav__dog__icon {
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	display: inline;
 }
 
 ul {
 	display: inline-block;
-	list-style-type: none;
 	text-decoration: none;
 	float: right;
-	font-family: 'Open Sans', sans-serif;
-	margin-left: 1em;
-	margin-right: 2em;
+  margin-right: 2em;
+	margin-top: 1em;
 }
 
 li {
 	text-decoration: none;
-    display: inline-block;
-    list-style-type: none;
+  display: inline-block;
+  list-style-type: none;
 	text-decoration: none;
 	font-weight: bold;
 	margin: 8px 20px 10px 0;
@@ -64,23 +66,73 @@ li {
 
 li a {
 	text-decoration: none;
-	color: black;
-
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 17px;
 }
 
-#main__section--conatiner {
+.main__section--container {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), 
 		rgba(0, 0, 0, 0.5)),url("images/park.jpg");
 	color: white;
 	font-family: 'Open Sans', sans-serif;
-	height: 675px;
-	text-align: center;
+	height: 550px;
 	background-position: center bottom;
 	background-size: cover;
 	width: 100%;
-	margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  text-align: center;
+  padding: 2%;
 }
 
+#main__article--container {
+	width: 65%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+#main__label--field {
+	font-size: 12px;
+  display: block;
+  text-align: left;
+}
+
+#main__section--form {
+	width: 70%;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+#main__red--dog {
+	background: url('images/dog1-sq.jpg');
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 5px solid #048eaa;
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+#main__input--field,
+#main__input--button {
+	width: 100%;
+	height: 35px;
+	border-radius: 3px;
+	display: inline;
+}
+
+#main__input--button {
+	background: #75e2e6;
+	font-size: 14px;
+}
+
+#bottom__main--section {
+	width: 100%;
+	height: 600px;
+}
 
