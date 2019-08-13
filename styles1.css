@@ -6,9 +6,9 @@ White text: #ffffff
 Body text: #000000
 Font: Open Sans*/
 
-* {
+/** {
 	border: 1px solid red;
-}
+}*/
 
 * {
 	margin: 0;
