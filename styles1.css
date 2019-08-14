@@ -77,12 +77,12 @@ li a {
 		rgba(0, 0, 0, 0.5)),url("images/park.jpg");
 	color: white;
 	font-family: 'Open Sans', sans-serif;
-	height: 550px;
-	background-position: center bottom;
-	background-size: cover;
-	width: 100%;
+  height: 528px;
+  background-position: center bottom;
+  background-size: cover;
+  width: 100%;
   text-align: center;
-  padding: 2%;
+  padding: 3% 0 1% 0;
 }
 
 #main__article--container {
@@ -101,13 +101,13 @@ li a {
 }
 
 #main__label--field {
-	font-size: 12px;
+	font-size: 15px;
   display: block;
   text-align: left;
 }
 
 #main__section--form {
-	width: 450px;
+	width: 350px;
   margin: 1.5em auto;
 }
 
@@ -126,42 +126,45 @@ li a {
 #main__input--field,
 #main__input--button {
 	width: 100%;
-	height: 35px;
+	height: 45px;
 	border-radius: 3px;
 	display: inline;
 }
 
 #main__input--button {
-	margin-top: 15px;
-}
-
-#main__input--button {
+	margin-top: 19px;
+	font-weight: 600;
 	background: #75e2e6;
-	font-size: 14px;
+	font-size: 15px;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 #bottom__main--section {
 	width: 100%;
-	height: 625px;
-}
-
-#bottom__main--container {
+	height: 700px;
 	margin-left: auto;
   margin-right: auto;
 	text-align: center;
+	padding: 25px;
 }
 
 #bottom__article--dogs {
-	width: 325px;
+	width: 300px;
 	display: inline-block;
-	text-align: center;
+	margin-top: 1%;
+}
+
+.text-container {
+	height: 300px;
+	width: 275px;
+	text-align: left;
 }
 
 #bottom__article--nomar {
-	width: 325px;
-	margin: 0 2% 0 2%;
+	width: 300px;
+	margin: 0 7% 0 7%;
 	display: inline-block;
-	text-align: center;
 }
 
 #bottom__article--dogs > p {
@@ -175,6 +178,7 @@ li a {
 	width: 250px;
 	height: 250px;
 	border: 5px solid #048eaa;
+	margin: 9% 0;
 }
 
 footer {
@@ -202,14 +206,28 @@ footer {
 	margin: 8px;
 }
 
-.botton__dog--button {
-	width: 200px;
+.bottom__dog--button {
+	width: 100%;
 	height: 45px;
 	background: #048eaa;
 	color: #ffffff;
 	border-radius: 3px;
 	font-size: 16px;
 	margin-top: 10%;
+}
+
+#text-container-a {
+	margin-bottom: 21px;
+	text-align: left;
+}
+
+#text-container-b {
+	text-align: left;
+} 
+
+#text-container-c {
+	margin-bottom: 42px;
+	text-align: left;
 }
 
 /*#bottom__icon__container {
