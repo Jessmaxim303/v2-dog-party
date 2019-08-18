@@ -20,10 +20,12 @@ Font: Open Sans*/
 header {
 	height: 70px;
 	width: 100%;
+	position: relative;
 	background-color: #75e2e6;
 	border-bottom: 3px solid #048eaa;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
+	z-index: 1;
 	color: #000000;
 }
 
@@ -48,6 +50,7 @@ ul {
 	float: right;
   margin-right: 2em;
 	margin-top: 1em;
+	z-index: 12;
 }
 
 li {
@@ -56,6 +59,7 @@ li {
 	text-decoration: none;
 	font-weight: bold;
 	margin: 8px 25px 12.5px 0;
+	z-index: 12;
 
 }
 
@@ -65,6 +69,7 @@ li a {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	font-size: 17px;
+	z-index: 12;
 }
 
 .main__section--container {
@@ -150,6 +155,7 @@ li a {
 	width: 300px;
 	display: inline-block;
 	margin-top: 3%;
+	vertical-align: top;
 }
 
 #bottom__article--dogs h2 {
@@ -166,7 +172,8 @@ li a {
 	width: 300px;
 	margin: 0 15%;
 	display: inline-block;
-	/*margin-top: 3%*/;
+	vertical-align: top;
+	margin-top: 1%;
 }
 
 #bottom__article--nomar h2 {
@@ -202,6 +209,18 @@ footer {
 	text-align: center;
 }
 
+.nav__section {
+}
+
+.nav__respon--section {
+	width: 100%;
+	height: 450px;
+	position: absolute;
+	z-index: 10;
+	background: #75e2e6;
+	/*border-bottom: 3px solid #048eaa;*/
+}
+
 #footer__sm--icons p {
 	font-size: 1.2em;
 	margin-bottom: 10px;
@@ -212,10 +231,6 @@ footer {
 	margin: 8px;
 }
 
-/*#footer__sm--container {
-	width: 90px;
-}*/
-
 #bottom__how--button,
 #bottom__what--button,
 #bottom__facts--button {
@@ -225,22 +240,40 @@ footer {
 	color: #ffffff;
 	border-radius: 3px;
 	font-size: 16px;
-	margin-top: 10%;
+	/*margin-top: 10%;*/
 	cursor: pointer;
+	vertical-align: baseline;
 }
 
-#text-container-a {
+#text__container--a {
 	margin-bottom: 21px;
 	text-align: left;
 }
 
-#text-container-b {
+#text__container--b {
 	text-align: left;
 } 
 
-#text-container-c {
+#text__container--c {
 	margin-bottom: 42px;
 	text-align: left;
+}
+
+.nav__menu--icon {
+	width: 65px;
+  height: 65px;
+  float: right;
+  margin-right: 4%;
+	display: none;
+}
+
+.text__container--display {
+	display: none;
+}
+
+.dropNav {
+	display: inline;
+	background: black;
 }
 
 /*MEDIA QUERY SECTION********************/
@@ -255,10 +288,18 @@ footer {
 
 @media screen and (max-width: 650px) { 
 
-ul {
-
+.nav__section--ul {
 display: none;
+}
+
+.nav__menu--icon {
+	display: inline;
+}
+ 
 
 }
 
-	}
+
+
+
+
