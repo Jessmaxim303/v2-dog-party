@@ -62,7 +62,7 @@ li a {
 
 .main__section--container {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), 
-		rgba(0, 0, 0, 0.5)),url("../images/park.jpg");
+		rgba(0, 0, 0, 0.5)),url("Images/park.jpg");
 	color: white;
 	font-family: 'Open Sans', sans-serif;
   height: 528px;
@@ -101,7 +101,8 @@ li a {
 
 #main__red--dog {
 	background-size: cover;
-	background: url('../images/dog1-sq.jpg');
+	background-position: center;
+	background: url('Images/dog1-sq.jpg');
 	border-radius: 50%;
 	border: 5px solid #048eaa;
 	height: 200px;
@@ -182,10 +183,6 @@ li a {
 	width: 250px;
 }
 
-
-.nav__section {
-}
-
 .nav__respon--section {
 	background: #75e2e6;
 	height: 450px;
@@ -229,7 +226,8 @@ li a {
   float: right;
   height: 65px;
   margin-right: 4%;
-  background-position: center;
+ /* background-position: center;*/
+  background-size: cover;
 }
 
 .text__container--display {

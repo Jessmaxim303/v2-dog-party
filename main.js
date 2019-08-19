@@ -22,8 +22,6 @@ function insertTitleText(e) {
 	dogsName.innerHTML = mainInputField.value;
 }
 
-// var mql = window.matchMedia('(max-width: 600px)');
-
 function howTextState(){
   textContainerA.classList.toggle("text__container--display");
 }
@@ -40,11 +38,3 @@ function topNav(){
 	navSection.classList.toggle("nav__respon--section");
 	navSectionUl.classList.toggle(".dropNav");
 }
-
-	// return (isMember ? "$2.00" : "$10.00");
-
-	// if (navSection.className === "nav__section"){
-	// console.log('top nav');
-	// 	navSection.className =+ "responsive";
-	// } else { 
-	// 	navSection.className = "nav__section";
