@@ -62,7 +62,7 @@ li a {
 
 .main__section--container {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), 
-		rgba(0, 0, 0, 0.5)),url("images/park.jpg");
+		rgba(0, 0, 0, 0.5)),url("../images/park.jpg");
 	color: white;
 	font-family: 'Open Sans', sans-serif;
   height: 528px;
@@ -101,7 +101,7 @@ li a {
 
 #main__red--dog {
 	background-size: cover;
-	background: url('images/dog1-sq.jpg');
+	background: url('../images/dog1-sq.jpg');
 	border-radius: 50%;
 	border: 5px solid #048eaa;
 	height: 200px;
@@ -229,6 +229,7 @@ li a {
   float: right;
   height: 65px;
   margin-right: 4%;
+  background-position: center;
 }
 
 .text__container--display {
