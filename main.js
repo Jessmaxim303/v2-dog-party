@@ -4,17 +4,17 @@ var bottomWhatButton = document.getElementById("bottom__what--button");
 var dogsName = document.getElementById("js__dog--title");
 var mainInputButton = document.getElementById("main__input--button");
 var mainInputField = document.getElementById("main__input--field");
-var textContainerA = document.getElementById("text__container--a");
-var textContainerB = document.getElementById("text__container--b");
-var textContainerC = document.getElementById("text__container--c");
 var navMenuIcon = document.querySelector(".nav__menu--icon");
 var navSection = document.querySelector(".nav__section");
 var navSectionUl = document.querySelector(".nav__section--ul");
+var textContainerA = document.getElementById("text__container--a");
+var textContainerB = document.getElementById("text__container--b");
+var textContainerC = document.getElementById("text__container--c");
 
-mainInputButton.addEventListener('click', insertTitleText);
+bottomFactsButton.addEventListener('click', factsTextState);
 bottomHowButton.addEventListener('click', howTextState);
 bottomWhatButton.addEventListener('click', whatTextState);
-bottomFactsButton.addEventListener('click', factsTextState);
+mainInputButton.addEventListener('click', insertTitleText);
 navMenuIcon.addEventListener('click', topNav);
 
 function insertTitleText(e) {
