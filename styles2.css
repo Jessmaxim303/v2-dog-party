@@ -1,0 +1,177 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/** {
+	border: 1px red solid;
+}*/
+
+body {
+	height: 1400px;
+	display: grid;
+	grid-template-areas: 
+    "header main main"
+    "header about about"
+    "header about about"
+    "footer footer footer";
+  grid-template-rows: 30% 25% 35% 10%;
+  grid-template-columns: 15% 85%;
+}
+
+header {
+	grid-area: header;
+	background: #9B969C;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+}
+
+main {
+	grid-area: main;
+	background: #3C3544;
+	display: inline-block;
+}
+
+#bottom__main--section {
+	grid-area: about;
+	background: #ffffff;
+}
+
+footer {
+	grid-area: footer;
+	background: #3C3544;
+}
+
+/****HEADER*******/
+
+#nav__dog__container {
+	height: 80px;
+	width: 80px;
+}
+
+.nav__section {
+	width: 90%;
+	height: 350px;
+}
+
+.nav__menu--icon {
+	display: none;
+}
+
+.nav__section--ul {
+	margin: 10% 0;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+li a {
+	height: 20px;
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+
+/*****MAIN************/
+
+#main__article--container {
+	display: block;
+	height: 90%;
+}
+
+#main__article--container h1 {
+  float: right;
+  margin-right: 98px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-weight: 300;
+  margin-top: 79px;
+  font-size: 36px;
+}
+
+#js__dog--title {
+	font-weight: 600;
+}
+
+#main__red--dog {
+	float: left;
+	background-size: cover;
+	background-position: center;
+	background: url('Images/dog1-sq.jpg');
+	border-radius: 50%;
+	height: 275px;
+	width: 275px;
+	border: 8px solid #9B969C;
+	margin-left: 60px;
+  margin-top: 40px;
+}
+
+#dog__title {
+	width: 40%;
+	height: 90%;
+}
+
+#main__section--form {
+	float: right;
+	width: 40%;
+	height: 40%;
+	display: flex;
+	flex-direction: column;
+	color: #ffffff;
+	margin-top: 20px;
+	margin-right: 100px;
+}
+
+#main__label--field,
+#main__input--field,
+#main__input--button {
+	width: 100%;
+	height: 40px;
+}
+
+#bottom__image--a,
+#bottom__image--b,
+#bottom__image--c {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	border: 5px solid #9B969C;
+}
+
+#text__container--a,
+#text__container--b,
+#text__container--c {
+	width: 50%;
+	float: right;
+	display: inline-block;
+}
+
+#bottom__how--button,
+#bottom__what--button,
+#bottom__facts--button {
+	float: right;
+	width: 200px;
+	height: 40px;
+}
+
+#bottom__article--dogs {
+	display: inline-block;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+}
+
+
+
+
